@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../contexts/AuthContext";
+import Login from "@/components/Auth/Login";
 
 export default function Admin() {
   const { user } = useAuth();
@@ -18,7 +19,12 @@ export default function Admin() {
   }, [user]);
 
   if (!user?.isAdmin) {
-    return <div>Access denied</div>;
+    return (
+      <div>
+        Access denied
+        <Login />
+      </div>
+    );
   }
 
   return (

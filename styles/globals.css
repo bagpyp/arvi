@@ -15,7 +15,7 @@
 body {
   font-family: var(--font-family);
   color: #333;
-  background-color: #f0f0f0;
+  background-color: #2df4;
   margin: 0;
 }
 
@@ -52,4 +52,8 @@ button {
 
 button:hover {
   background-color: var(--primary-color-hover);
+}
+
+* {
+  margin: 0.1em;
 }

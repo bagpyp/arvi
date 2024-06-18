@@ -1,0 +1,49 @@
+.vehicleCard {
+  width: 100%; /* Adjust the card's width as needed */
+  max-width: 1200px; /* Optional: maximum width of the card */
+  margin: 0 auto; /* Center the card */
+  padding: 16px; /* Optional: padding around the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+  border-radius: 8px; /* Optional: rounded corners */
+  background: #fff; /* Optional: background color */
+}
+
+.imageWrapper {
+  width: 90%; /* Adjust the width percentage as needed */
+  margin: 0 auto; /* Center the image wrapper */
+}
+
+.image {
+  width: 100%; /* Make the image take the full width of the wrapper */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.vehicleCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vehicleCard img {
+  width: 400px;
+  border-radius: 80px;
+}
+
+.vehicleCard h3 {
+  margin-top: 0.5rem;
+}
+
+.vehicleCard p {
+  margin: 0.5rem 0 1rem;
+}
+
+.vehicleCard button {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.vehicleCard button:hover {
+  background-color: #005bb5;
+}

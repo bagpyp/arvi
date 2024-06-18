@@ -2,8 +2,16 @@ import { hash, compare } from "bcryptjs";
 
 const users = [
   {
+    email: "admin@admin.com",
+    password: "admin",
+    isAdmin: true,
+    name: "admin",
+  },
+  {
     email: "test@test.com",
     password: "test",
+    isAdmin: false,
+    name: "test",
   },
 ];
 

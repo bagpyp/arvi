@@ -1,0 +1,14 @@
+.vehicleList {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  gap: 1rem;
+}
+
+.vehicleList h1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
